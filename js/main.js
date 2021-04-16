@@ -7,6 +7,47 @@ const imagen = document.querySelectorAll('imagen-loca').offsetHeight;
 //     scrollTrigger: ".izquierda"
 // })
 
+gsap.to(".acomodar", {
+
+    duration: 3,
+    scrollTrigger: {
+        trigger: ".acomodar",
+        start: "top 100%",
+        end: "top 80%",
+
+        // pin: true,
+        // pinSpacing: false,
+        markers: true,
+        toggleClass: "pelotica",
+        toggleActions: "restart none none none"
+    }
+})
+
+gsap.to(".mov-izq", {
+    duration: 3,
+    scrollTrigger: {
+        trigger: ".mov-izq",
+        start: "top 12%",
+        end: "top 0%",
+        // markers: true,
+        toggleClass: "mov-izqu",
+        toggleActions: "restart none none none"
+    }
+})
+
+gsap.to(".mov-der", {
+    duration: 3,
+    scrollTrigger: {
+        trigger: ".mov-der",
+        start: "top 12%",
+        end: "top 0%",
+        // scrub: true,
+        // markers: true,
+        toggleClass: "mov-dere",
+        toggleActions: "restart none none none"
+    }
+})
+
 gsap.to(".izquierda", {
     // x: -60,
     duration: 3,

@@ -5,18 +5,25 @@
     font-size: 2rem;
 }
 
+.punto {
+    background-color: #1b7a7b;
+    border-radius: 25%;
+}
+
 .acomodar {
-    transition: all 2s;
-    transform: translate(0, 580px);
+    transition: all 3s;
+    transform: scaleY(-100deg);
+    opacity: 01%;
 }
 
 .pelotica {
     transition: all 1s;
     color: #9a1a4a;
-    transform: translate(0, -350px);
-    -webkit-transform: translate(0, -350px);
-    -o-transform: translate(0, -350px);
-    -moz-transform: translate(0, -350px);
+    transform: translate(0, -320px);
+    -webkit-transform: translate(0, -320px);
+    -o-transform: translate(0, -320px);
+    -moz-transform: translate(0, -320px);
+    opacity: 100%;
 }
 
 .mov-izq {

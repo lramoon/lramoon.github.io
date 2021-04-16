@@ -5,6 +5,56 @@
     font-size: 2rem;
 }
 
+.acomodar {
+    transition: all 2s;
+    transform: translate(0, 800px);
+}
+
+.pelotica {
+    transition: all 1s;
+    color: #9a1a4a;
+    transform: translate(0, -350px);
+    -webkit-transform: translate(0, -350px);
+    -o-transform: translate(0, -350px);
+    -moz-transform: translate(0, -350px);
+}
+
+.mov-izq {
+    transition: all 3s;
+    transform: translate(0px, 0);
+}
+
+.mov-izqu {
+    transition: all 1s;
+    color: #9a1a4a;
+    transform: translate(-350px, 0);
+    -webkit-transform: translate(-350px, 0); /** Safari & Chrome **/
+    -o-transform: translate(-350px, 0); /** Opera **/
+    -moz-transform: translate(-350px, 0); /** Firefox **/
+}
+
+.mov-der {
+    transition: all 3s;
+    transform: translate(40px, 0);
+}
+
+.mov-dere {
+    transition: all 1s;
+    color: #9a1a4a;
+    transform: translate(350px, 0);
+    -webkit-transform: translate(350px, 0); /** Safari & Chrome **/
+    -o-transform: translate(350px, 0); /** Opera **/
+    -moz-transform: translate(350px, 0); /** Firefox **/
+}
+
+// .mov-der:hover {
+//     color: #9a1a4a;
+//     transform: translate(350px, 0);
+//     -webkit-transform: translate(350px, 0); /** Safari & Chrome **/
+//     -o-transform: translate(350px, 0); /** Opera **/
+//     -moz-transform: translate(350px, 0); /** Firefox **/
+// }
+
 .jou:hover {
     background-color: #ff5000;
     border-radius: 32%;
@@ -26,7 +76,7 @@
 }
 
 .fondo-desaparece {
-    transition: .8s;
+    transition: 0.8s;
 }
 
 .red {
@@ -78,13 +128,15 @@
     position: relative;
 }
 
+.titulo-video {
+    font-weight: bold;
+    font-size: 9.1rem;
+}
 
 /*Ajuste de video - responsive*/
-@media only screen and (min-width:320px) and (max-width:768px) {
-
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     .carousel-item {
         height: 100vh;
-
     }
 
     .carousel-item video {
@@ -104,7 +156,6 @@
         padding: 0 1.875rem;
         width: 100%;
     }
-
 }
 
 .b-sombreado {
@@ -133,7 +184,6 @@
     transform: rotate(-180deg);
 }
 
-
 .c-section__title:after {
     content: "";
     width: 6px;
@@ -148,7 +198,7 @@
     transform: scale(1.1);
     background-color: #ff5000;
     z-index: 10;
-    transition: all .5s;
+    transition: all 0.5s;
 }
 
 .c-site-nav_trigger-icon:before {
@@ -159,7 +209,7 @@
     outline: 1px solid transparent;
     border-radius: 5px;
     transition-property: background-color, transform;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
 }
 
 .c-site-nav__trigger-icon {
@@ -181,7 +231,7 @@
     outline: 1px solid transparent;
     border-radius: 5px;
     transition-property: background-color, transform;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

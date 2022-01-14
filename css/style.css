@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+.tap {
+  opacity: 0;
+}
+
 .ft-regulador {
   font-size: 6.8rem;
   font-weight: bolder;
@@ -160,7 +165,7 @@
 }
 
 .animate-IAM:hover:after {
-  content: "CONTÁCTAME";
+  content: "CONTACTO";
 }
 
 .animate-RAMON:after {
@@ -238,8 +243,31 @@
     transform: translateY(0%);
   }
 }
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
 /*Ajustar la imagenes-Responsive*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+  .tap {
+    opacity: 1;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
+    animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
+  }
+
   .bg-jumbotron04 {
     background-image: url(../assets/img/Safety2.png);
     background-position: center;
@@ -338,6 +366,13 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .tap {
+    opacity: 1;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
+    animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
+  }
+
   .bg-jumbotron04 {
     background-image: url(../assets/img/Safety2.png);
     background-position: center;

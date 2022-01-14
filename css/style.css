@@ -148,19 +148,19 @@
 }
 
 .animate-hello:after {
-  content: "HELLO,";
+  content: "HOLA,";
 }
 
 .animate-hello:hover:after {
-  content: "WORKS";
+  content: "TRABAJOS";
 }
 
 .animate-IAM:after {
-  content: "I AM";
+  content: "SOY";
 }
 
 .animate-IAM:hover:after {
-  content: "CONTACT";
+  content: "CONTÁCTAME";
 }
 
 .animate-RAMON:after {
@@ -168,7 +168,7 @@
 }
 
 .animate-RAMON:hover:after {
-  content: "ABOUT ME";
+  content: "SOBRE MI";
 }
 
 .animate {

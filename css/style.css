@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
+.icon_move:hover {
+  color: #0a58ca;
+  transform: scale(1.1);
+}
+
 .tap {
-  opacity: 0;
+  opacity: 1;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
+  animation: bounce 0.5s cubic-bezier(0.5, 0.6, 0.6, 1) infinite alternate;
 }
 
 .ft-regulador {
@@ -42,7 +50,8 @@
 }
 
 .bg-jumbotron04 {
-  background-image: url(../assets/img/Safety.png);
+  height: 100%;
+  background-image: url(../assets/img/Safety2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,7 +63,7 @@
 }
 
 .bg-jumbotron04:hover {
-  background-image: url(../assets/img/Safety2.png);
+  background-image: url(../assets/img/Safety.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,7 +79,8 @@
 }
 
 .bg-jumbotron03 {
-  background-image: url(../assets/img/Sisdeci.png);
+  height: 100%;
+  background-image: url(../assets/img/pf-s73-eve-set-14-mockup3343432.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +92,7 @@
 }
 
 .bg-jumbotron03:hover {
-  background-image: url(../assets/img/pf-s73-eve-set-14-mockup3343432.png);
+  background-image: url(../assets/img/Sisdeci.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,6 +108,7 @@
 }
 
 .bg-jumbotron02 {
+  height: 100%;
   background-image: url(../assets/img/Catarsis2.png);
   background-position: center;
   background-size: cover;
@@ -126,6 +137,7 @@
 }
 
 .bg-jumbotron01 {
+  height: 100%;
   background-image: url(../assets/img/Marabans.png);
   background-position: center;
   background-size: cover;
@@ -174,7 +186,7 @@
 }
 
 .animate-RAMON:hover:after {
-  content: "SOBRE MI";
+  content: "SOBRE MÍ";
 }
 
 .animate {

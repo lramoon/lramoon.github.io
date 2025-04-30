@@ -144,6 +144,130 @@
   animation-fill-mode: backwards;
 }
 
+.bg-jumbotron05 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/aliconsoLandingPage.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron05:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron06 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/americanosLaPistaPadel.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron06:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron07 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/enviromentalFL.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron07:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron08 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/vytaBrand.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron08:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron09 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/divinePerfums.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron09:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron10 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/anzoateguiFC.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron10:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron11 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/agritrade.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron11:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron12 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/playerBasket.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron12:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none; /* Evita interacción con el video */
+}
+
 .bg-jumbotron04 {
   height: 100%;
   background-image: url(../assets/img/Safety2.png);

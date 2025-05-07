@@ -284,6 +284,33 @@
   opacity: 1; /* Aparece cuando el usuario pasa el mouse */
 }
 
+.bg-jumbotron15 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/briqual.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron15:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron16 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/aquafrodita.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron16:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
 
 
 .background-video {

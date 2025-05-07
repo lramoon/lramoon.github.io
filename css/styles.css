@@ -256,6 +256,36 @@
   opacity: 1; /* Aparece cuando el usuario pasa el mouse */
 }
 
+.bg-jumbotron13 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/scoreboard.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron13:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+.bg-jumbotron14 {
+  position: relative;
+  height: 100%;
+  background-image: url(../assets/img/smokeit.png); /* Imagen de fondo */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-jumbotron14:hover .background-video {
+  opacity: 1; /* Aparece cuando el usuario pasa el mouse */
+}
+
+
+
 .background-video {
   position: absolute;
   top: 0;
